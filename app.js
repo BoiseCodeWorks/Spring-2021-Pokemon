@@ -37,7 +37,7 @@ let computerScore = 0
 function playerChoice(playerChoice) {
   let compChoice = getComputerChoice()
   // console.log('player', playerChoice)
-  // drawBattle(playerChoice, compChoice)
+  drawBattle(playerChoice, compChoice)
   let outCome = playBetter(playerChoice, compChoice)
   // displayWinner.innerHTML = playBetter(playerChoice, compChoice)
   if (outCome == "You Win") {
